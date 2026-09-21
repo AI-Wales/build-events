@@ -1,0 +1,14 @@
+---
+layout: default
+title: Talks and workshops
+---
+<p>{{ site.description }}</p>
+{% assign talks = site.talks | sort: "date" | reverse %}
+<ul>
+  {% for t in talks %}
+  <li>
+    <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+    - {{ t.date | date: "%-d %b %Y" }}, {{ t.location | capitalize }}
+  </li>
+  {% endfor %}
+</ul>

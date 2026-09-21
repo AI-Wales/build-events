@@ -1,0 +1,29 @@
+title: AI Wales Tech
+description: >-
+  Talks, workshops and hackathons from the AI Wales technical community - models, code and data.
+url: "https://events.aiwales.org"
+baseurl: ""
+lang: en-GB
+timezone: Europe/London
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections:
+  talks:
+    output: true
+    permalink: /talks/:year/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+
+exclude:
+  - _templates
+  - README.md
