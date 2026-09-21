@@ -7,6 +7,7 @@ format: talk
 speakers:
   - name: "Edward Grundy"
     org: "Bay Information Systems"
+    url: "https://www.bayis.co.uk"
 tags: [energy, benchmarking, open-weight-models]
 description: >-
   Per-request power telemetry for 50+ open-weight models across
