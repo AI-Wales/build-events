@@ -1,11 +1,16 @@
 title: AI Wales Tech
 description: >-
   Talks, workshops and hackathons from the AI Wales technical community - models, code and data.
-url: "https://events.aiwales.org"
-baseurl: ""
 lang: en-GB
 timezone: Europe/London
 theme: minima
+
+author:
+  name: AI Wales
+  email: jay@aiwales.org
+minima:
+  social_links:
+    twitter: aiwales
 
 plugins:
   - jekyll-seo-tag
