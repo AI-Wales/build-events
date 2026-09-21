@@ -5,12 +5,10 @@ lang: en-GB
 timezone: Europe/London
 theme: minima
 
-author:
-  name: AI Wales
-  email: jay@aiwales.org
-minima:
-  social_links:
-    twitter: aiwales
+author: AI Wales
+email: jay@aiwales.org
+twitter_username: aiwales
+github_username: AI-Wales
 
 plugins:
   - jekyll-seo-tag

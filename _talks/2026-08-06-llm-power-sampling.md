@@ -1,5 +1,6 @@
 ---
 title: "Can models affect data centre power usage?"
+author: Edward Grundy
 date: 2026-08-06
 location: cardiff
 venue: "NatWest Accelerator"
